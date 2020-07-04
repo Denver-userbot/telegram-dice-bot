@@ -4,8 +4,8 @@ import random
 import logging
 
 HELP_MESSAGE = "Usage: /roll <# sided dice>"
-ARGS = ""
-TOKEN = "1277928698:AAGTxjacvBoQ33ouKEiTJoVv9F8b454GJyM" # insert your own token here
+ARGS = "🎲"
+TOKEN = "1322615277:AAF2hv75QtxWnLbQgNb0Wx3_53rzPg_vNjQ" # insert your own token here
 
 def start(bot, update):
     bot.sendMessage(update.message.chat_id, text=HELP_MESSAGE)
